@@ -1,0 +1,37 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;  
+}
+.label {
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+}
+.label:not(:first-child) {
+    padding-top: 10px;
+}
+.input {
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: 8px 8px;
+    background-color: lightcyan;
+    border: 2px solid gray;
+    box-shadow: 5px 5px 5px -2px gray;
+}
+.input:hover {
+    background-color: lightblue;
+}
+.addContact {
+    width: 150px;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 8px 10px;
+    border-radius: 5px;
+    margin: 30px auto 0;
+    border: 2px solid gray;
+    box-shadow: 5px 5px 5px -2px gray;
+}
+.addContact:hover {
+    background-color: royalblue;
+}
