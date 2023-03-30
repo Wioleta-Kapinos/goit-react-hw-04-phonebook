@@ -61,8 +61,7 @@ export const App = () =>{
           onChange={filterValue}
           filteredContacts={filteredContacts}/>
             <ContactList 
-          contacts={contacts}
-          filter={filter}
+          contacts={filteredContacts}
           deleteContact={deleteContact}/>
         </div>
       )
